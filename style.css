@@ -1,0 +1,12 @@
+.imagem-carrossel{
+    object-fit: cover; /*como o elemento se comporta ao conteiner dele*/
+    object-position: 0 20%; /*movimentar a imagem no seu eixo x ou y*/
+    height: 400px; /*altura da imagem*/
+   
+}
+.fonte-titulo{
+    font-family: 'Poppins', sans-serif;
+}
+.cor{
+    color:rgb(60, 30, 30);
+}
