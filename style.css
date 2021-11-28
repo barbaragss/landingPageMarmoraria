@@ -10,3 +10,34 @@
 .cor{
     color:rgb(60, 30, 30);
 }
+
+.imagem-card{
+   width: 45%;
+   padding: 5px 5px;
+   height: 275px;
+   border-radius: 10px;
+
+}
+
+.imagens{
+    background-color:rgba(240, 237, 237, 0.94);
+    display: flex;
+    flex-wrap: wrap; /*quebra linha*/
+    flex-direction: row; /*direcao*/
+    justify-content: space-around;
+}
+
+.footer{
+    color:rgb(60, 30, 30);
+    margin-top: 4px;
+    height: 100px;
+    background-color:rgba(240, 237, 237, 0.94);
+    text-align: center;
+}
+.icones{
+    height: 25px;
+    padding: 2px;
+}
+.apresentacao{
+    background-color:rgba(240, 237, 237, 0.94);
+}
