@@ -1,16 +1,14 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(60, 30, 30);
+}
+
 .imagem-carrossel{
     object-fit: cover; /*como o elemento se comporta ao conteiner dele*/
     object-position: 0 20%; /*movimentar a imagem no seu eixo x ou y*/
     height: 400px; /*altura da imagem*/
    
 }
-.fonte-titulo{
-    font-family: 'Poppins', sans-serif;
-}
-.cor{
-    color:rgb(60, 30, 30);
-}
-
 
 .icones{
     height: 25px;
@@ -26,6 +24,25 @@
 .car-largura{
     max-width: 18rem;
 }
+.car-missao{
+    width: 32%;
+   
+}
+.imagem-missoes{
+    
+    height: 100px;
+    width: 30%;
+    margin-left: 33%;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+.teste{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
 
 /*.imagens{
     background-color:rgba(240, 237, 237, 0.94);
